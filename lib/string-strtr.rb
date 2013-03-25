@@ -1,5 +1,5 @@
 class String
-  def strtr(str, replace_pairs)
+  def strtr(replace_pairs)
     keys = replace_pairs.map {|a, b| a }
     values = replace_pairs.map {|a, b| b }
     catch_regex = /(#{keys.map{|a| Regexp.quote(a) }.join( ')|(' )})/
