@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "string-strtr"
   gem.homepage = "http://github.com/kaspernj/string-strtr"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{The method 'strtr' for Ruby known from PHP.}
+  gem.description = %Q{The method 'strtr' for Ruby known from PHP as a direct method under the String-class.}
   gem.email = "kj@gfish.com"
   gem.authors = ["Kasper Johansen"]
   # dependencies defined in Gemfile
