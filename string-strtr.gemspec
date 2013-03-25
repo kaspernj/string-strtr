@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "string-strtr"
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Kasper Johansen"]
@@ -27,7 +27,8 @@ Gem::Specification.new do |s|
     "VERSION",
     "lib/string-strtr.rb",
     "spec/spec_helper.rb",
-    "spec/string-strtr_spec.rb"
+    "spec/string-strtr_spec.rb",
+    "string-strtr.gemspec"
   ]
   s.homepage = "http://github.com/kaspernj/string-strtr"
   s.licenses = ["MIT"]
